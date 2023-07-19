@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  onionarchitectureinaspnetcore6webapi:
+    image: ${DOCKER_REGISTRY-}onionarchitectureinaspnetcore6webapi
+    build:
+      context: .
+      dockerfile: OnionArchitectureInAspNetCore6WebAPI/Dockerfile
